@@ -1,6 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo img {
@@ -8,17 +9,57 @@ header {
   width: auto;
 }
 
+.header__links {
+  font-weight: 700;
+}
 .header__links ul {
   display: flex;
   list-style-type: none;
 }
 .header__links ul li {
   padding: 0 15px;
+  text-transform: uppercase;
+  color: #161C2D;
+}
+.header__links ul a {
+  text-decoration: none;
+  color: #161C2D;
+}
+.header__links ul a:hover {
+  color: #2F55D4;
 }
 
+.header__icons button {
+  padding: 7px 8px;
+  background-color: #2F55D41A;
+  border-radius: 4px;
+  border: 1px solid #2F55D4;
+  box-shadow: 0 2px 4px 0 #2F55D4;
+  outline: none;
+  margin: 0 5px;
+}
+.header__icons button:hover {
+  background-color: #2F55D4;
+}
+.header__icons button:hover i {
+  color: #F8F9FC;
+}
 .header__icons ul {
   display: flex;
   list-style-type: none;
+}
+.header__icons li {
+  padding: 0 5px;
+}
+.header__icons li:first-of-type {
+  padding-top: 7px;
+  margin: 0 8px;
+}
+.header__icons li:first-of-type i {
+  color: #8492A6;
+}
+.header__icons i {
+  color: #2F55D4;
 }
 
 body {
