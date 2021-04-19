@@ -1,1 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
 
+.header__logo img {
+  height: 30px;
+  width: auto;
+}
+
+.header__links ul {
+  display: flex;
+  list-style-type: none;
+}
+.header__links ul li {
+  padding: 0 15px;
+}
+
+.header__icons ul {
+  display: flex;
+  list-style-type: none;
+}
+
+body {
+  margin: auto;
+  font-family: "Quicksand", sans-serif;
+  width: 80%;
+}
