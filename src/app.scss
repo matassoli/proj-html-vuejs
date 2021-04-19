@@ -1,8 +1,26 @@
 @import "partials/variables.scss";
 @import "partials/header.scss";
+@import "partials/jumbo.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  margin: auto;
   font-family: 'Quicksand', sans-serif;
-  width: 80%;
+}
+
+pre {
+  font-family: 'Quicksand', sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
 }

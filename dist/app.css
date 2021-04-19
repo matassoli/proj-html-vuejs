@@ -1,7 +1,14 @@
 header {
+  background-color: #F8F9FC;
+}
+
+.header__container {
   display: flex;
+  margin: auto;
   justify-content: space-between;
   align-items: center;
+  width: 70%;
+  padding-top: 20px;
 }
 
 .header__logo img {
@@ -33,10 +40,8 @@ header {
   padding: 7px 8px;
   background-color: #2F55D41A;
   border-radius: 4px;
-  border: 1px solid #2F55D4;
-  box-shadow: 0 2px 4px 0 #2F55D4;
-  outline: none;
-  margin: 0 5px;
+  border: 1px solid #c7d2f3;
+  box-shadow: 0 2px 4px 0 #c7d2f3;
 }
 .header__icons button:hover {
   background-color: #2F55D4;
@@ -45,6 +50,7 @@ header {
   color: #F8F9FC;
 }
 .header__icons ul {
+  cursor: pointer;
   display: flex;
   list-style-type: none;
 }
@@ -62,8 +68,90 @@ header {
   color: #2F55D4;
 }
 
-body {
+main {
+  background-color: #F8F9FC;
+}
+
+.main__container {
+  display: flex;
+  align-items: center;
+  padding-top: 150px;
   margin: auto;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.main__bot {
+  background-color: #F8F9FC;
+  height: 200px;
+  width: 100%;
+  border-bottom-left-radius: 50% 10%;
+  border-bottom-right-radius: 50% 10%;
+}
+
+.main__text {
+  width: 50%;
+}
+.main__text h1 {
+  margin-top: 15px;
+  font-size: 40px;
+  color: #161C2D;
+}
+.main__text p,
+.main__text span {
+  color: #8492A6;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.main__text .main__text__dev {
+  font-size: 12px;
+  padding: 5px;
+  background-color: #2F55D41A;
+  border-radius: 50px;
+  color: #2F55D4;
+  border: 1px solid #c7d2f3;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.buttons button {
+  margin-bottom: 10px;
+}
+.buttons .button--blue {
+  background-color: #2F55D4;
+  color: #F8F9FC;
+  border: 1px solid #2F55D4;
+  box-shadow: 0 2px 4px 0 #c7d2f3;
+}
+.buttons .button--white {
+  background-color: #F8F9FC;
+  color: #2F55D4;
+  border: 1px solid #2F55D4;
+  margin-left: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Quicksand", sans-serif;
-  width: 80%;
+}
+
+pre {
+  font-family: "Quicksand", sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
 }
