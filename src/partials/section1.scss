@@ -31,11 +31,17 @@ p {
 }
 
 .box {
+  overflow: hidden;
+  position: relative;
   height: 280px;
   width: 250px;
   border: 1px solid #E9ECEF;
   border-radius: 10px;
   padding: 25px;
+
+  #icon--bg {
+    visibility: hidden;
+  }
 
   h3 {
     font-size: 18px;
@@ -63,5 +69,47 @@ p {
       margin-left: 10px;
       font-size: 10px;
     }
+  }
+}
+
+.box:hover {
+  cursor: pointer;
+  animation: 0.2s forwards;
+  animation-name: highlight;
+}
+
+.features__container__bg {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.box:hover #icon--bg {
+  visibility: visible;
+  left: 20px;
+  top: -230px;
+  position: absolute;
+  background: none;
+  font-size: 200px;
+  z-index: -1;
+  opacity: 0.1;
+  animation: fade 0.5s;
+}
+@keyframes highlight {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.1;
   }
 }
