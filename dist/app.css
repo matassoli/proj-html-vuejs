@@ -301,7 +301,7 @@ p {
   background-color: #202942;
   height: 130px;
   border-radius: 10px;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 .quickstart__table ul {
   margin: auto;
@@ -316,6 +316,20 @@ p {
 .quickstart__table ul li {
   color: #F8F9FC;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: calc(25% - 1px);
+  height: 92%;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+}
+.quickstart__table ul li:hover {
+  width: calc(25% - 1px);
+  height: 97%;
+  background-color: #202942;
 }
 .quickstart__table p {
   width: 90%;
@@ -328,7 +342,23 @@ p {
 }
 
 .quickstart__features {
+  margin-top: 20px;
   align-self: flex-start;
+}
+.quickstart__features p {
+  display: inline;
+  padding-right: 50px;
+}
+.quickstart__features i {
+  color: #2ECA8B;
+}
+
+.graph {
+  padding-top: 80px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 * {

@@ -35,7 +35,7 @@
   background-color: #202942;
   height: 130px;
   border-radius: 10px;
-  padding-top: 20px;
+  padding-top: 25px;
 
   ul {
     margin: auto;
@@ -50,6 +50,21 @@
     li {
       color: $secondaryBG;
       list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      width: calc(25% - 1px);
+      height: 92%;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    li:hover {
+      width: calc(25% - 1px);
+      height: 97%;
+      background-color: #202942;
     }
   }
 
@@ -66,5 +81,14 @@
 }
 
 .quickstart__features {
+  margin-top: 20px;
+
   align-self: flex-start;
+  p {
+    display: inline;
+    padding-right: 50px;
+  }
+  i {
+      color: #2ECA8B;
+  }
 }
