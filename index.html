@@ -18,6 +18,7 @@
       <div class="header__logo">
         <a href="#"><img src="img/logo-dark.png" alt="Landrick Logo"></a>
       </div>
+
       <div class="header__links">
         <ul>
           <li><a href="">Home</a></li>
@@ -26,6 +27,7 @@
           <li><a href="">Docs <i class="fas fa-chevron-down"></i></a></li>
         </ul>
       </div>
+
       <div class="header__icons">
         <ul>
           <li><i class="fas fa-search"></i></li>
@@ -37,28 +39,71 @@
     </div>
   </header>
 
-  <main>
-
-    <section class="main__container">
-      <div class="main__text">
-        <span class="main__text__dev">Development</span>
-        <h1><pre>A Complete</pre> Developer Toolset</h1>
-        <p>Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
-        <div class="buttons">
-          <button class="button--blue">Get Started</button> <button class="button--white">Documentation</button>
+  <main id="app">
+    <div class="main__wrapper">
+      <section class="main__container">
+        <div class="main__text">
+          <span class="main__text__dev">Development</span>
+          <h1>
+            <pre>A Complete</pre> Developer Toolset
+          </h1>
+          <p>Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+          <div class="buttons">
+            <button class="button--blue">Get Started</button> <button class="button--white">Documentation</button>
+          </div>
+          <span>Current Version v2.6.0</span>
         </div>
-        <span>Current Version v2.6.0</span>
 
-      </div>
-      <div class="main__img">
-        <img src="img/about.png" alt="">
+        <div class="main__img">
+          <img src="img/about.png" alt="Background IMG">
+        </div>
+      </section>
+    </div>
+
+    <section class="main__bot">
+      <img src="img/amazon.svg" alt="Amazon Logo">
+      <img src="img/google.svg" alt="Google Logo">
+      <img src="img/lenovo.svg" alt="Lenovo Logo">
+      <img src="img/paypal.svg" alt="Paypal Logo">
+      <img src="img/shopify.svg" alt="Shopify Logo">
+      <img src="img/spotify.svg" alt="Spotify Logo">
+    </section>
+
+    <section>
+      <div class="features">
+        <div class="features__text">
+          <h2>
+            Key Features
+          </h2>
+          <p>Start working with <span>Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+        </div>
+
+        <div class="features__container">
+
+          <div v-for="item in contacts" class="box">
+            <i :class="[item.icon]"></i>
+            <h3>{{item.name}}</h3>
+            <p>{{item.description}}</p>
+            <a href="">Read More<i class="fas fa-chevron-right"></i></a>
+          </div>
+
+        </div>
+
+
+
       </div>
     </section>
 
+
+
+
+
+
+
+
+
+
   </main>
-  <section class="main__bot">
-    1
-  </section>
 
 
 
@@ -67,7 +112,11 @@
 
 
 
-  <footer></footer>
+  <footer>
+
+  </footer>
+
+  <script src="js/myscript.js" charset="utf-8"></script>
 </body>
 
 </html>

@@ -1,5 +1,7 @@
-main {
+.main__wrapper {
   background-color: #F8F9FC;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #E9ECEF;
 }
 
 .main__container {
@@ -9,14 +11,6 @@ main {
   margin: auto;
   justify-content: space-between;
   width: 70%;
-}
-
-.main__bot {
-  background-color: #F8F9FC;
-  height: 200px;
-  width: 100%;
-  border-bottom-left-radius: 50% 10%;
-  border-bottom-right-radius: 50% 10%;
 }
 
 .main__text {
@@ -64,5 +58,22 @@ main {
     color: $primary;
     border: 1px solid $primary;
     margin-left: 10px;
+  }
+}
+
+.main__bot {
+  background-color: #F8F9FC;
+  height: 120px;
+  width: 100%;
+  border-bottom-left-radius: 90% 30%;
+  border-bottom-right-radius: 90% 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: auto;
+    width: 80px;
+    margin: 0 50px;
   }
 }
