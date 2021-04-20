@@ -144,7 +144,6 @@ header {
 }
 
 .features {
-  align-items: center;
   padding-top: 80px;
   margin: auto;
   width: 70%;
@@ -269,17 +268,76 @@ p {
     opacity: 0.1;
   }
 }
+.quickstart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  margin: auto;
+  width: 70%;
+}
+.quickstart > span {
+  color: #2F55D4;
+  font-weight: 700;
+}
+.quickstart h2 {
+  margin: 20px 0;
+}
+.quickstart p {
+  text-align: center;
+  width: 60%;
+}
+.quickstart p span {
+  color: #2F55D4;
+  font-size: 17px;
+}
+
+.table__container {
+  width: 80%;
+  margin-top: 40px;
+}
+
+.quickstart__table {
+  background-color: #202942;
+  height: 130px;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+.quickstart__table ul {
+  margin: auto;
+  display: flex;
+  height: 50px;
+  background-color: #3C4858;
+  width: 90%;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+.quickstart__table ul li {
+  color: #F8F9FC;
+  list-style-type: none;
+}
+.quickstart__table p {
+  width: 90%;
+  padding-top: 10px;
+  margin-left: 5%;
+  text-align: left;
+}
+.quickstart__table p span {
+  color: #2ECA8B;
+}
+
+.quickstart__features {
+  align-self: flex-start;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Quicksand", sans-serif;
-}
-
-pre {
+body, pre {
   font-family: "Quicksand", sans-serif;
 }
 

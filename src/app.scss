@@ -1,7 +1,9 @@
 @import "partials/variables.scss";
 @import "partials/header.scss";
 @import "partials/jumbo.scss";
-@import "partials/section1.scss";
+@import "partials/section_features.scss";
+@import "partials/section_quickstart.scss";
+
 
 
 * {
@@ -10,11 +12,7 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Quicksand', sans-serif;
-}
-
-pre {
+body, pre {
   font-family: 'Quicksand', sans-serif;
 }
 
