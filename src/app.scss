@@ -6,8 +6,7 @@
 @import "partials/section_graph.scss";
 @import "partials/rates.scss";
 @import "partials/form.scss";
-
-
+@import "partials/footer.scss";
 
 * {
   margin: 0;
@@ -31,6 +30,10 @@ button {
 
 ul {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 p {
