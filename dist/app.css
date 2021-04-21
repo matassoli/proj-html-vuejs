@@ -339,9 +339,13 @@ header {
   width: 70%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.graph__sx {
+  width: 45%;
+}
 .graph__sx h2 {
   font-size: 30px;
   margin-bottom: 25px;
@@ -363,10 +367,15 @@ header {
 }
 .graph__sx button i {
   color: #F8F9FC;
+  font-size: 12px;
 }
 
+.graph__dx {
+  width: 40%;
+}
 .graph__dx img {
-  width: 100%;
+  width: 450px;
+  height: auto;
 }
 
 * {
