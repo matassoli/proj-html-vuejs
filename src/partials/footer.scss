@@ -1,6 +1,40 @@
 footer {
   background-color: $primaryBG;
-  padding: 80px 0 30px;
+  padding-top: 80px;
+
+  > footer {
+    padding-top: 40px;
+    margin-top: 80px;
+    border-top: 1px solid #E9ECEF1A;
+
+    .footer__design {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 30px;
+
+      .footer__year {
+        span {
+          color: $red;
+        }
+      }
+
+      .footer__cards {
+        img {
+          height: 30px;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+.center__col__wrap {
+  display: flex;
+  justify-content: center;
+  width: 70%;
 }
 
 .footer__wrapper {
@@ -11,7 +45,7 @@ footer {
 }
 
 .footer__column {
-  width: 22%;
+  width: 32%;
   color: $secondaryFont;
 
   a {
@@ -45,10 +79,11 @@ footer {
   }
 
   .footer__mail {
-    margin-bottom: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
 
     span {
-      color: red;
+      color: $red;
     }
   }
 
@@ -59,7 +94,6 @@ footer {
   }
 
   li {
-    color: red;
     font-weight: 700;
     line-height: 1.8;
 
@@ -80,8 +114,10 @@ footer {
 
   input {
     height: 40px;
+    width: 100%;
+    border-radius: 10px;
     padding-left: 50px;
-    background-color: $prova;
+    background-color: #283353;
     border: none;
     font-weight: 700;
     font-size: 12px;
@@ -92,5 +128,15 @@ footer {
     position: absolute;
     left: 20px;
     top: calc(50% - 0.5em);
+  }
+
+  button {
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #27314F;
+    color: $primary;
+    box-shadow: 0 1px 4px 0 $primary;
   }
 }

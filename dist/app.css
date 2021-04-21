@@ -511,7 +511,33 @@ header {
 
 footer {
   background-color: #202942;
-  padding: 80px 0 30px;
+  padding-top: 80px;
+}
+footer > footer {
+  padding-top: 40px;
+  margin-top: 80px;
+  border-top: 1px solid #E9ECEF1A;
+}
+footer > footer .footer__design {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 30px;
+}
+footer > footer .footer__design .footer__year span {
+  color: #E43F52;
+}
+footer > footer .footer__design .footer__cards img {
+  height: 30px;
+  width: auto;
+}
+
+.center__col__wrap {
+  display: flex;
+  justify-content: center;
+  width: 70%;
 }
 
 .footer__wrapper {
@@ -522,7 +548,7 @@ footer {
 }
 
 .footer__column {
-  width: 22%;
+  width: 32%;
   color: #8492A6;
 }
 .footer__column a {
@@ -551,10 +577,11 @@ footer {
   line-height: 1.5;
 }
 .footer__column .footer__mail {
-  margin-bottom: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 .footer__column .footer__mail span {
-  color: red;
+  color: #E43F52;
 }
 .footer__column h3 {
   font-size: 22px;
@@ -562,7 +589,6 @@ footer {
   margin-bottom: 25px;
 }
 .footer__column li {
-  color: red;
   font-weight: 700;
   line-height: 1.8;
 }
@@ -579,6 +605,8 @@ footer {
 }
 .footer__column input {
   height: 40px;
+  width: 100%;
+  border-radius: 10px;
   padding-left: 50px;
   background-color: #283353;
   border: none;
@@ -590,6 +618,15 @@ footer {
   position: absolute;
   left: 20px;
   top: calc(50% - 0.5em);
+}
+.footer__column button {
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #27314F;
+  color: #2F55D4;
+  box-shadow: 0 1px 4px 0 #2F55D4;
 }
 
 * {
