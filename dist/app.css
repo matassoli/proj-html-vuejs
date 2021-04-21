@@ -411,6 +411,8 @@ header {
   border: 1px solid #E9ECEF;
   border-radius: 15px;
   padding: 30px;
+  box-shadow: 0 2px 0 0 #8492A6;
+  position: relative;
 }
 .rates__wrapper__box span {
   font-weight: 700;
@@ -445,6 +447,26 @@ header {
 .rates__wrapper__box button {
   width: 100%;
   margin: 15px 0;
+}
+
+.rates__best {
+  transform: rotate(45deg);
+  border: 25px solid transparent;
+  border-bottom: 25px solid #F17425;
+  position: absolute;
+  top: -1px;
+  right: -37px;
+  padding: 0 10px;
+  width: 120px;
+}
+.rates__best small {
+  margin-left: 8px;
+  display: inline-block;
+  color: #FFF;
+  font-weight: 700;
+  position: absolute;
+  font-size: 16px;
+  bottom: -22px;
 }
 
 * {
