@@ -5,16 +5,14 @@
 @import "partials/section_quickstart.scss";
 @import "partials/section_graph.scss";
 
-
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body, pre {
+body,
+pre {
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -25,4 +23,27 @@ button {
   cursor: pointer;
   font-weight: 700;
   border: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  color: $secondaryFont;
+  font-weight: 700;
+}
+
+.button--blue {
+  background-color: $primary;
+  color: $secondaryBG;
+  border: 1px solid $primary;
+  box-shadow: 0 2px 4px 0 #c7d2f3;
+}
+
+.button--white {
+  background-color: $secondaryBG;
+  color: $primary;
+  border: 1px solid $primary;
+  margin-left: 10px;
 }

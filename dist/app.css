@@ -21,7 +21,6 @@ header {
 }
 .header__links ul {
   display: flex;
-  list-style-type: none;
 }
 .header__links ul li {
   padding: 0 15px;
@@ -52,7 +51,6 @@ header {
 .header__icons ul {
   cursor: pointer;
   display: flex;
-  list-style-type: none;
 }
 .header__icons li {
   padding: 0 5px;
@@ -114,18 +112,6 @@ header {
 .buttons button {
   margin-bottom: 10px;
 }
-.buttons .button--blue {
-  background-color: #2F55D4;
-  color: #F8F9FC;
-  border: 1px solid #2F55D4;
-  box-shadow: 0 2px 4px 0 #c7d2f3;
-}
-.buttons .button--white {
-  background-color: #F8F9FC;
-  color: #2F55D4;
-  border: 1px solid #2F55D4;
-  margin-left: 10px;
-}
 
 .main__bot {
   background-color: #F8F9FC;
@@ -148,10 +134,7 @@ header {
   margin: auto;
   width: 70%;
 }
-
-p {
-  color: #8492A6;
-  font-weight: 700;
+.features p {
   margin-bottom: 30px;
 }
 
@@ -315,7 +298,6 @@ p {
 }
 .quickstart__table ul li {
   color: #F8F9FC;
-  list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,13 +343,41 @@ p {
   justify-content: space-between;
 }
 
+.graph__sx h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.graph__sx ul {
+  font-weight: 700;
+  color: #8492A6;
+}
+.graph__sx ul li {
+  padding: 5px 0;
+  font-size: 15px;
+}
+.graph__sx i {
+  margin-right: 5px;
+  color: #2F55D4;
+}
+.graph__sx p {
+  margin-bottom: 20px;
+}
+.graph__sx button i {
+  color: #F8F9FC;
+}
+
+.graph__dx img {
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body, pre {
+body,
+pre {
   font-family: "Quicksand", sans-serif;
 }
 
@@ -378,4 +388,27 @@ button {
   cursor: pointer;
   font-weight: 700;
   border: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  color: #8492A6;
+  font-weight: 700;
+}
+
+.button--blue {
+  background-color: #2F55D4;
+  color: #F8F9FC;
+  border: 1px solid #2F55D4;
+  box-shadow: 0 2px 4px 0 #c7d2f3;
+}
+
+.button--white {
+  background-color: #F8F9FC;
+  color: #2F55D4;
+  border: 1px solid #2F55D4;
+  margin-left: 10px;
 }

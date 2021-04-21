@@ -45,20 +45,6 @@
   button {
     margin-bottom: 10px;
   }
-
-  .button--blue {
-    background-color: $primary;
-    color: $secondaryBG;
-    border: 1px solid $primary;
-    box-shadow: 0 2px 4px 0 #c7d2f3;
-  }
-
-  .button--white {
-    background-color: $secondaryBG;
-    color: $primary;
-    border: 1px solid $primary;
-    margin-left: 10px;
-  }
 }
 
 .main__bot {
