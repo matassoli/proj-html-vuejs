@@ -1,0 +1,74 @@
+.rates {
+  padding-top: 80px;
+  width: 70%;
+  margin: auto;
+}
+
+.rates__text {
+  text-align: center;
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    width: 50%;
+    padding: 20px 0 50px;
+    margin: auto;
+
+    span {
+      color: $primary;
+      font-size: 17px;
+    }
+  }
+}
+
+.rates__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rates__wrapper__box {
+  height: 500px;
+  width: 32%;
+  border: 1px solid #E9ECEF;
+  border-radius: 15px;
+  padding: 30px;
+
+  span {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: $iconBG;
+    border-radius: 50px;
+    color: $primary;
+    border: 1px solid #c7d2f3;
+    user-select: none;
+    display: inline-block;
+  }
+
+  h2 {
+    margin: 10px 0;
+    font-size: 30px;
+  }
+
+  i {
+    color: $primary;
+    margin-right: 5px;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  .rates__border {
+    padding-bottom: 15px;
+    margin: 15px 0;
+    border-bottom: 1px solid #E9ECEF;
+  }
+
+  button {
+    width: 100%;
+    margin: 15px 0;
+  }
+}
