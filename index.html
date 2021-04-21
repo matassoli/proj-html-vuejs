@@ -101,10 +101,7 @@
         <div class="table__container">
           <div class="quickstart__table">
             <ul>
-              <li>npm</li>
-              <li>nuget</li>
-              <li>spm</li>
-              <li>github</li>
+              <li v-for="(name, i) in quickstart" @click="selected = i" :class="{selected:i == selected}">{{name}}</li>
             </ul>
             <p><span>$</span> npm install <span>-g</span> claps.js</p>
           </div>
@@ -119,7 +116,9 @@
 
     <section class="graph">
       <div class="graph__sx">
-        <h2>Build tools and <pre>extensive documentation</pre></h2>
+        <h2>Build tools and
+          <pre>extensive documentation</pre>
+        </h2>
         <p>You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.
         <ul>
           <li><i class="far fa-check-circle"></i> Digital Marketing Solutions for Tomorrow</li>
@@ -142,11 +141,7 @@
 
 
 
-
-
   </main>
-
-
 
 
 

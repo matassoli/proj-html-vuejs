@@ -1,6 +1,7 @@
 var vm = new Vue({
   el: "#app",
   data: {
+    selected: 0,
     contacts: [{
         name: 'Modular',
         icon: 'fas fa-server',
@@ -21,6 +22,8 @@ var vm = new Vue({
         icon: 'fas fa-expand-arrows-alt',
         description: 'Composed in pseudo-Latin language which more or less corresponds.'
       },
-    ]
+    ],
+    quickstart: ["npm", "nuget", "spm", "github"]
   },
+  methods: {},
 });

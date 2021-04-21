@@ -47,6 +47,11 @@
     border-radius: 5px;
     justify-content: space-around;
 
+    .selected {
+      background-color: #202942;
+      margin: 1px;
+    }
+
     li {
       color: $secondaryBG;
       display: flex;
@@ -58,12 +63,6 @@
       cursor: pointer;
       font-weight: 700;
       font-size: 18px;
-    }
-
-    li:hover {
-      width: calc(25% - 1px);
-      height: 97%;
-      background-color: #202942;
     }
   }
 
@@ -81,13 +80,14 @@
 
 .quickstart__features {
   margin-top: 20px;
-
   align-self: flex-start;
+
   p {
     display: inline;
     padding-right: 50px;
   }
+
   i {
-      color: #2ECA8B;
+    color: #2ECA8B;
   }
 }
