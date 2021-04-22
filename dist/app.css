@@ -80,10 +80,11 @@ header {
   left: -60px;
   top: 200px;
   box-shadow: 0 0 4px 0 #c7d2f3;
+  align-items: center;
+  display: flex;
 }
 .main__wrapper .settings i {
   position: absolute;
-  top: 10px;
   left: 70px;
   font-size: 20px;
 }
@@ -546,6 +547,7 @@ footer > footer {
   padding-top: 40px;
   margin-top: 80px;
   border-top: 1px solid #E9ECEF1A;
+  position: relative;
 }
 footer > footer .footer__design {
   width: 70%;
@@ -665,6 +667,21 @@ footer > footer .footer__design .footer__cards img {
   background-color: #27314F;
   color: #E94649;
   box-shadow: 0 1px 4px 0 #E94649;
+}
+
+.footer__return {
+  position: absolute;
+  right: 40px;
+  bottom: 30px;
+  background-color: #E94649;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 0 #c7d2f3;
+  color: #8492A6;
 }
 
 @media only screen and (max-width: 1480px) {
