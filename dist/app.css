@@ -469,6 +469,9 @@ header {
   width: 100%;
   margin: 15px 0;
 }
+.rates__wrapper__box button:active {
+  background-color: #E43F52;
+}
 
 .rates__best {
   transform: rotate(45deg);
@@ -537,6 +540,7 @@ header {
   font-size: 16px;
   outline: none;
   border: none;
+  color: #E94649;
 }
 
 footer {
@@ -758,10 +762,6 @@ button {
   border: none;
 }
 
-button:active {
-  transform: translateY(2px);
-}
-
 ul {
   list-style-type: none;
 }
@@ -787,4 +787,12 @@ p {
   color: #E94649;
   border: 1px solid #E94649;
   margin-left: 10px;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.button--color:active:not(.footer__column button) {
+  background-color: #E43F52;
 }

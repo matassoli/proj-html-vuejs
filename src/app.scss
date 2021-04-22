@@ -9,7 +9,6 @@
 @import "partials/footer.scss";
 @import "partials/responsive.scss";
 
-
 * {
   margin: 0;
   padding: 0;
@@ -28,9 +27,6 @@ button {
   cursor: pointer;
   font-weight: 700;
   border: none;
-}
-button:active {
-  transform: translateY(2px);
 }
 
 ul {
@@ -58,4 +54,12 @@ p {
   color: $primary;
   border: 1px solid $primary;
   margin-left: 10px;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.button--color:active:not(.footer__column button) {
+  background-color: #E43F52;
 }
