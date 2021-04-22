@@ -107,24 +107,27 @@ header {
           user-select: none;
 }
 
-.buttons button {
+.jumbo__buttons button {
   margin-bottom: 10px;
 }
 
 .main__bot {
   background-color: #F8F9FC;
   height: 120px;
-  width: 100%;
   border-bottom-left-radius: 90% 30%;
   border-bottom-right-radius: 90% 30%;
+}
+.main__bot .main__bot--imgwrap {
+  width: 70%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 40px;
 }
 .main__bot img {
   height: auto;
-  width: 5%;
-  margin: 0 50px;
+  width: 80px;
 }
 
 .features {
@@ -654,9 +657,30 @@ footer > footer .footer__design .footer__cards img {
     margin: 20px;
   }
   .features .features__container {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .jumbo__buttons {
+    margin-left: 20px;
+  }
+  .jumbo__buttons button {
+    width: 120px;
+    margin: 5px 0;
+  }
+
+  .graph {
+    flex-wrap: wrap;
+  }
+  .graph .graph__sx {
+    width: 70%;
+    order: 2;
+  }
+  .graph .graph__dx {
+    width: 75%;
+  }
+  .graph .graph__dx img {
+    margin-bottom: 20px;
   }
 }
 * {
@@ -696,7 +720,7 @@ p {
   font-weight: 700;
 }
 
-.button--blue {
+.button--color {
   background-color: #E94649;
   color: #F8F9FC;
   border: 1px solid #E94649;

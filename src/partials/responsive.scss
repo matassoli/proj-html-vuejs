@@ -9,9 +9,35 @@
     }
 
     .features__container {
-      display: flex;
-      flex-wrap: wrap;
       justify-content: center;
     }
   }
+
+}
+@media only screen and (max-width: 1050px) {
+  .jumbo__buttons {
+    margin-left: 20px;
+
+    button {
+      width: 120px;
+      margin: 5px 0;
+    }
+  }
+
+    .graph {
+      flex-wrap: wrap;
+
+      .graph__sx {
+        width: 70%;
+        order: 2;
+      }
+
+      .graph__dx {
+        width: 75%;
+
+        img {
+          margin-bottom: 20px;
+        }
+      }
+    }
 }
