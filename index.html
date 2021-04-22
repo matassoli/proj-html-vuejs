@@ -179,13 +179,13 @@
       </div>
     </section>
 
-    <section>
+    <section  id="email__form">
       <div class="form__wrapper">
         <div class="form__text">
           <h2>Want to be among the first to find out?</h2>
           <p>Start working with <span>Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
         </div>
-        <form>
+        <form action="#email__form">
           <input type="email" placeholder="Email Address"> <button class="button--blue">Get Started</button>
         </form>
       </div>
@@ -212,7 +212,6 @@
       </div>
 
       <div class="center__col__wrap">
-
         <div class="footer__column">
           <h3>Company</h3>
           <ul>
@@ -226,7 +225,6 @@
             <li><a href=""><i class="fas fa-chevron-right"></i> Login</a></li>
           </ul>
         </div>
-
         <div class="footer__column">
           <h3>Useful Link</h3>
           <ul>
@@ -238,17 +236,15 @@
           </ul>
         </div>
       </div>
-
       <div class="footer__column">
         <h3>Newsletter</h3>
         <p>Sign up and receive the latest tips via email.</p>
         <p class="footer__mail">Write your email <span>*</span></p>
-        <form>
+        <form action="#footer__form" id="footer__form">
           <input type="email" placeholder="Your Email:">
           <label class="far fa-envelope input-icon"></label>
         </form>
-        <button>Subscribe</button>
-
+        <button type="submit" form="footer__form">Subscribe</button>
       </div>
 
 

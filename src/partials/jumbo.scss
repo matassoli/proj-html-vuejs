@@ -15,6 +15,8 @@
 
 .main__text {
   width: 50%;
+  font-weight: 700;
+  color: $secondaryFont;
 
   h1 {
     margin-top: 15px;
@@ -22,10 +24,7 @@
     color: $primaryFont;
   }
 
-  p,
-  span {
-    color: $secondaryFont;
-    font-weight: 700;
+  p {
     padding: 20px 0;
   }
 

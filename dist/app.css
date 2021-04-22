@@ -31,7 +31,7 @@ header {
   color: #161C2D;
 }
 .header__links ul a:hover {
-  color: #2F55D4;
+  color: #E94649;
 }
 
 .header__icons button {
@@ -42,7 +42,7 @@ header {
   box-shadow: 0 2px 4px 0 #c7d2f3;
 }
 .header__icons button:hover {
-  background-color: #2F55D4;
+  background-color: #E94649;
 }
 .header__icons button:hover i {
   color: #F8F9FC;
@@ -62,7 +62,7 @@ header {
   color: #8492A6;
 }
 .header__icons i {
-  color: #2F55D4;
+  color: #E94649;
 }
 
 .main__wrapper {
@@ -82,16 +82,15 @@ header {
 
 .main__text {
   width: 50%;
+  font-weight: 700;
+  color: #8492A6;
 }
 .main__text h1 {
   margin-top: 15px;
   font-size: 40px;
   color: #161C2D;
 }
-.main__text p,
-.main__text span {
-  color: #8492A6;
-  font-weight: 700;
+.main__text p {
   padding: 20px 0;
 }
 .main__text .main__text__dev {
@@ -99,7 +98,7 @@ header {
   padding: 5px;
   background-color: #2F55D41A;
   border-radius: 50px;
-  color: #2F55D4;
+  color: #E94649;
   border: 1px solid #c7d2f3;
   cursor: default;
   -webkit-user-select: none;
@@ -145,7 +144,7 @@ header {
   font-size: 30px;
 }
 .features__text span {
-  color: #2F55D4;
+  color: #E94649;
   font-size: 17px;
 }
 
@@ -171,7 +170,7 @@ header {
   padding: 15px 0;
 }
 .box i:not(.fa-chevron-right) {
-  color: #2F55D4;
+  color: #E94649;
   font-size: 24px;
   background-color: #2F55D41A;
   padding: 20px;
@@ -181,7 +180,7 @@ header {
   font-size: 15px;
 }
 .box a {
-  color: #2F55D4;
+  color: #E94649;
   font-weight: 700;
 }
 .box a i {
@@ -258,7 +257,7 @@ header {
   width: 70%;
 }
 .quickstart > span {
-  color: #2F55D4;
+  color: #E94649;
   font-weight: 700;
 }
 .quickstart h2 {
@@ -269,7 +268,7 @@ header {
   width: 60%;
 }
 .quickstart p span {
-  color: #2F55D4;
+  color: #E94649;
   font-size: 17px;
 }
 
@@ -358,7 +357,7 @@ header {
 }
 .graph__sx i {
   margin-right: 5px;
-  color: #2F55D4;
+  color: #E94649;
 }
 .graph__sx p {
   margin-bottom: 20px;
@@ -394,7 +393,7 @@ header {
   margin: auto;
 }
 .rates__text p span {
-  color: #2F55D4;
+  color: #E94649;
   font-size: 17px;
 }
 
@@ -418,7 +417,7 @@ header {
   padding: 10px 20px;
   background-color: #2F55D41A;
   border-radius: 50px;
-  color: #2F55D4;
+  color: #E94649;
   border: 1px solid #c7d2f3;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -431,7 +430,7 @@ header {
   font-size: 30px;
 }
 .rates__wrapper__box i {
-  color: #2F55D4;
+  color: #E94649;
   margin-right: 5px;
 }
 .rates__wrapper__box p {
@@ -467,6 +466,13 @@ header {
   bottom: -22px;
 }
 
+.rates__wrapper__box:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 0 -1px 5px 1px #ADB5BD, 0 3px 0 0 #E94649;
+}
+
 .form__wrapper {
   padding-top: 80px;
   width: 70%;
@@ -482,7 +488,7 @@ header {
   padding: 30px 0;
 }
 .form__wrapper .form__text p span {
-  color: #2F55D4;
+  color: #E94649;
   font-size: 17px;
 }
 .form__wrapper form {
@@ -625,8 +631,8 @@ footer > footer .footer__design .footer__cards img {
   margin-top: 20px;
   width: 100%;
   background-color: #27314F;
-  color: #2F55D4;
-  box-shadow: 0 1px 4px 0 #2F55D4;
+  color: #E94649;
+  box-shadow: 0 1px 4px 0 #E94649;
 }
 
 * {
@@ -649,6 +655,10 @@ button {
   border: none;
 }
 
+button:active {
+  transform: translateY(2px);
+}
+
 ul {
   list-style-type: none;
 }
@@ -663,15 +673,15 @@ p {
 }
 
 .button--blue {
-  background-color: #2F55D4;
+  background-color: #E94649;
   color: #F8F9FC;
-  border: 1px solid #2F55D4;
+  border: 1px solid #E94649;
   box-shadow: 0 2px 4px 0 #c7d2f3;
 }
 
 .button--white {
   background-color: #F8F9FC;
-  color: #2F55D4;
-  border: 1px solid #2F55D4;
+  color: #E94649;
+  border: 1px solid #E94649;
   margin-left: 10px;
 }

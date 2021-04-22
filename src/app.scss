@@ -4,8 +4,8 @@
 @import "partials/section_features.scss";
 @import "partials/section_quickstart.scss";
 @import "partials/section_graph.scss";
-@import "partials/rates.scss";
-@import "partials/form.scss";
+@import "partials/section_rates.scss";
+@import "partials/section_form.scss";
 @import "partials/footer.scss";
 
 * {
@@ -26,6 +26,9 @@ button {
   cursor: pointer;
   font-weight: 700;
   border: none;
+}
+button:active {
+  transform: translateY(2px);
 }
 
 ul {
