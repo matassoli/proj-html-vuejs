@@ -13,16 +13,37 @@
     }
   }
 
-}
-@media only screen and (max-width: 1050px) {
-  .jumbo__buttons {
-    margin-left: 20px;
+  .rates__wrapper {
+    justify-content: center;
 
-    button {
-      width: 120px;
-      margin: 5px 0;
+    .rates__wrapper__box {
+      height: 500px;
+      width: 45%;
+      margin: 20px;
     }
   }
+
+  .footer__column {
+    font-size: 12px;
+
+    ul i {
+      vertical-align: baseline;
+      margin: 2px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 1050px) {
+    .jumbo__buttons {
+      margin-left: 20px;
+
+      button {
+        width: 120px;
+        margin: 5px 0;
+      }
+    }
 
     .graph {
       flex-wrap: wrap;
@@ -40,4 +61,5 @@
         }
       }
     }
+  }
 }

@@ -405,6 +405,7 @@ header {
 .rates__wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .rates__wrapper__box {
@@ -659,8 +660,28 @@ footer > footer .footer__design .footer__cards img {
   .features .features__container {
     justify-content: center;
   }
+
+  .rates__wrapper {
+    justify-content: center;
+  }
+  .rates__wrapper .rates__wrapper__box {
+    height: 500px;
+    width: 45%;
+    margin: 20px;
+  }
+
+  .footer__column {
+    font-size: 12px;
+  }
+  .footer__column ul i {
+    vertical-align: baseline;
+    margin: 2px;
+  }
+  .footer__column h3 {
+    font-size: 20px;
+  }
 }
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1480px) and (max-width: 1050px) {
   .jumbo__buttons {
     margin-left: 20px;
   }
