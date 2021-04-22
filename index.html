@@ -39,6 +39,9 @@
 
   <main id="app">
     <div class="main__wrapper">
+      <a href=""><div class="settings">
+        <i class="fas fa-cog"></i>
+      </div></a>
       <section class="main__container">
         <div class="main__text">
           <span class="main__text__dev">Development</span>
@@ -59,13 +62,13 @@
 
     <section class="main__bot">
       <div class="main__bot--imgwrap">
-      <img src="img/amazon.svg" alt="Amazon Logo">
-      <img src="img/google.svg" alt="Google Logo">
-      <img src="img/lenovo.svg" alt="Lenovo Logo">
-      <img src="img/paypal.svg" alt="Paypal Logo">
-      <img src="img/shopify.svg" alt="Shopify Logo">
-      <img src="img/spotify.svg" alt="Spotify Logo">
-    </div>
+        <img src="img/amazon.svg" alt="Amazon Logo">
+        <img src="img/google.svg" alt="Google Logo">
+        <img src="img/lenovo.svg" alt="Lenovo Logo">
+        <img src="img/paypal.svg" alt="Paypal Logo">
+        <img src="img/shopify.svg" alt="Shopify Logo">
+        <img src="img/spotify.svg" alt="Spotify Logo">
+      </div>
     </section>
 
     <section>
@@ -76,17 +79,17 @@
           </h2>
           <p>Start working with <span>Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
         </div>
-          <div class="features__container">
-            <div v-for="item in contacts" class="box">
-              <i :class="[item.icon]"></i>
-              <h3>{{item.name}}</h3>
-              <p>{{item.description}}</p>
-              <a href="">Read More<i class="fas fa-chevron-right"></i></a>
-              <div class="features__container__bg">
-                <i :class="[item.icon]" id="icon--bg"></i>
-              </div>
+        <div class="features__container">
+          <div v-for="item in contacts" class="box">
+            <i :class="[item.icon]"></i>
+            <h3>{{item.name}}</h3>
+            <p>{{item.description}}</p>
+            <a href="">Read More<i class="fas fa-chevron-right"></i></a>
+            <div class="features__container__bg">
+              <i :class="[item.icon]" id="icon--bg"></i>
             </div>
           </div>
+        </div>
       </div>
     </section>
 

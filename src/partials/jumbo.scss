@@ -2,6 +2,25 @@
   background-color: #F8F9FC;
   padding-bottom: 80px;
   border-bottom: 1px solid #E9ECEF;
+
+  .settings {
+    position: fixed;
+    background-color: #FFF;
+    height: 40px;
+    width: 100px;
+    color: $primary;
+    border-radius: 50px;
+    left: -60px;
+    top: 200px;
+    box-shadow: 0 0 4px 0 #c7d2f3;
+
+    i {
+      position: absolute;
+      top: 10px;
+      left: 70px;
+      font-size: 20px;
+    }
+  }
 }
 
 .main__container {
