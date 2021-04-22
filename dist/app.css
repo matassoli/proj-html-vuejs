@@ -578,6 +578,12 @@ footer > footer .footer__design .footer__cards img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.footer__column .footer__socials:hover {
+  border: 2px solid #E94649;
+}
+.footer__column .footer__socials:hover i {
+  color: #E94649;
+}
 .footer__column p {
   margin: 25px 0;
   line-height: 1.5;
@@ -605,6 +611,9 @@ footer > footer .footer__design .footer__cards img {
   margin-right: 10px;
   font-size: 10px;
   vertical-align: middle;
+}
+.footer__column li a:hover i {
+  color: #E94649;
 }
 .footer__column form {
   position: relative;
