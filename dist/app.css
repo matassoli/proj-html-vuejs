@@ -119,11 +119,11 @@ header {
   border-bottom-right-radius: 90% 30%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .main__bot img {
   height: auto;
-  width: 80px;
+  width: 5%;
   margin: 0 50px;
 }
 
@@ -150,6 +150,7 @@ header {
 
 .features__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -161,6 +162,7 @@ header {
   border: 1px solid #E9ECEF;
   border-radius: 10px;
   padding: 25px;
+  margin: 5px;
 }
 .box #icon--bg {
   visibility: hidden;
@@ -644,6 +646,19 @@ footer > footer .footer__design .footer__cards img {
   box-shadow: 0 1px 4px 0 #E94649;
 }
 
+@media only screen and (max-width: 1480px) {
+  .features .features__text {
+    margin: auto;
+  }
+  .features .box {
+    margin: 20px;
+  }
+  .features .features__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 * {
   margin: 0;
   padding: 0;

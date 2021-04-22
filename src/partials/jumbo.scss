@@ -54,11 +54,11 @@
   border-bottom-right-radius: 90% 30%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 
   img {
     height: auto;
-    width: 80px;
+    width: 5%;
     margin: 0 50px;
   }
 }

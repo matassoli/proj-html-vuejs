@@ -74,17 +74,17 @@
           </h2>
           <p>Start working with <span>Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
         </div>
-        <div class="features__container">
-          <div v-for="item in contacts" class="box">
-            <i :class="[item.icon]"></i>
-            <h3>{{item.name}}</h3>
-            <p>{{item.description}}</p>
-            <a href="">Read More<i class="fas fa-chevron-right"></i></a>
-            <div class="features__container__bg">
-              <i :class="[item.icon]" id="icon--bg"></i>
+          <div class="features__container">
+            <div v-for="item in contacts" class="box">
+              <i :class="[item.icon]"></i>
+              <h3>{{item.name}}</h3>
+              <p>{{item.description}}</p>
+              <a href="">Read More<i class="fas fa-chevron-right"></i></a>
+              <div class="features__container__bg">
+                <i :class="[item.icon]" id="icon--bg"></i>
+              </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
 
@@ -179,7 +179,7 @@
       </div>
     </section>
 
-    <section  id="email__form">
+    <section id="email__form">
       <div class="form__wrapper">
         <div class="form__text">
           <h2>Want to be among the first to find out?</h2>
