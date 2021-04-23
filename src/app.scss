@@ -1,65 +1,17 @@
-@import "partials/variables.scss";
-@import "partials/header.scss";
-@import "partials/jumbo.scss";
-@import "partials/section_features.scss";
-@import "partials/section_quickstart.scss";
-@import "partials/section_graph.scss";
-@import "partials/section_rates.scss";
-@import "partials/section_form.scss";
-@import "partials/footer.scss";
-@import "partials/responsive.scss";
+@import "partials/base/_variables.scss";
+@import "partials/base/_typhography.scss";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "partials/components/_buttons.scss";
+@import "partials/components/_responsive.scss";
 
-body,
-pre {
-  font-family: 'Quicksand', sans-serif;
-}
 
-button {
-  padding: 10px;
-  border-radius: 5px;
-  outline: none;
-  cursor: pointer;
-  font-weight: 700;
-  border: none;
-}
+@import "partials/layout/_header.scss";
+@import "partials/layout/_jumbo.scss";
 
-ul {
-  list-style-type: none;
-}
+@import "partials/layout/_features.scss";
+@import "partials/layout/_quickstart.scss";
+@import "partials/layout/_graph.scss";
+@import "partials/layout/_rates.scss";
+@import "partials/layout/_form.scss";
 
-a {
-  text-decoration: none;
-}
-
-p {
-  color: $secondaryFont;
-  font-weight: 700;
-}
-
-.button--color {
-  background-color: $primary;
-  color: $secondaryBG;
-  border: 1px solid $primary;
-  box-shadow: 0 2px 4px 0 #c7d2f3;
-
-  &:active:not(.footer__column button) {
-    background-color: #E43F52;
-  }
-}
-
-.button--white {
-  background-color: $secondaryBG;
-  color: $primary;
-  border: 1px solid $primary;
-  margin-left: 10px;
-}
-
-button:active {
-  transform: translateY(2px);
-}
+@import "partials/layout/_footer.scss";

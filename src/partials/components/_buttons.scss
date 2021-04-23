@@ -1,0 +1,21 @@
+.button--color {
+  background-color: $primary;
+  color: $secondaryBG;
+  border: 1px solid $primary;
+  box-shadow: 0 2px 4px 0 #c7d2f3;
+
+  &:active:not(.footer__column button) {
+    background-color: #E43F52;
+  }
+}
+
+.button--white {
+  background-color: $secondaryBG;
+  color: $primary;
+  border: 1px solid $primary;
+  margin-left: 10px;
+}
+
+button:active {
+  transform: translateY(2px);
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+pre {
+  font-family: 'Quicksand', sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: $secondaryFont;
+  font-weight: 700;
+}
