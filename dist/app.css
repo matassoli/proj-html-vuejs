@@ -31,81 +31,6 @@ p {
   font-weight: 700;
 }
 
-.button--color {
-  background-color: #E94649;
-  color: #F8F9FC;
-  border: 1px solid #E94649;
-  box-shadow: 0 2px 4px 0 #c7d2f3;
-}
-.button--color:active:not(.footer__column button) {
-  background-color: #E43F52;
-}
-
-.button--white {
-  background-color: #F8F9FC;
-  color: #E94649;
-  border: 1px solid #E94649;
-  margin-left: 10px;
-}
-
-button:active {
-  transform: translateY(2px);
-}
-
-@media only screen and (max-width: 1480px) {
-  .features__text {
-    margin: auto;
-  }
-  .features .box {
-    margin: 20px;
-  }
-  .features .features__container {
-    justify-content: center;
-  }
-
-  .rates__wrapper {
-    justify-content: center;
-  }
-  .rates__wrapper__box {
-    height: 500px;
-    width: 45%;
-    margin: 20px;
-  }
-
-  .footer__column {
-    font-size: 12px;
-  }
-  .footer__column ul i {
-    vertical-align: baseline;
-    margin: 2px;
-  }
-  .footer__column h3 {
-    font-size: 20px;
-  }
-}
-@media only screen and (max-width: 1480px) and (max-width: 1050px) {
-  .jumbo__buttons {
-    margin-left: 20px;
-  }
-  .jumbo__buttons button {
-    width: 120px;
-    margin: 5px 0;
-  }
-
-  .graph {
-    flex-wrap: wrap;
-  }
-  .graph__sx {
-    width: 70%;
-    order: 2;
-  }
-  .graph__dx {
-    width: 75%;
-  }
-  .graph__dx img {
-    margin-bottom: 20px;
-  }
-}
 header {
   background-color: #F8F9FC;
 }
@@ -603,15 +528,15 @@ header {
   margin: auto;
   padding-bottom: 180px;
 }
-.form__wrapper__text {
+.form__wrapper .form__text {
   text-align: center;
 }
-.form__wrapper__text p {
+.form__wrapper .form__text p {
   margin: auto;
   width: 50%;
   padding: 30px 0;
 }
-.form__wrapper__text p span {
+.form__wrapper .form__text p span {
   color: #E94649;
   font-size: 17px;
 }
@@ -783,4 +708,80 @@ footer > footer .footer__design .footer__cards img {
   border-radius: 10px;
   box-shadow: 0 0 1px 0 #c7d2f3;
   color: #8492A6;
+}
+
+.button--color {
+  background-color: #E94649;
+  color: #F8F9FC;
+  border: 1px solid #E94649;
+  box-shadow: 0 2px 4px 0 #c7d2f3;
+}
+.button--color:active:not(.footer__column button) {
+  background-color: #E43F52;
+}
+
+.button--white {
+  background-color: #F8F9FC;
+  color: #E94649;
+  border: 1px solid #E94649;
+  margin-left: 10px;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+@media only screen and (max-width: 1480px) {
+  .features__text {
+    margin: auto;
+  }
+  .features .box {
+    margin: 20px;
+  }
+  .features .features__container {
+    justify-content: center;
+  }
+
+  .rates__wrapper {
+    justify-content: center;
+  }
+  .rates__wrapper__box {
+    height: 500px;
+    width: 45%;
+    margin: 20px;
+  }
+
+  .footer__column {
+    font-size: 12px;
+  }
+  .footer__column ul i {
+    vertical-align: baseline;
+    margin: 2px;
+  }
+  .footer__column h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1480px) and (max-width: 1050px) {
+  .jumbo__buttons {
+    margin-left: 20px;
+  }
+  .jumbo__buttons button {
+    width: 120px;
+    margin: 5px 0;
+  }
+
+  .graph {
+    flex-wrap: wrap;
+  }
+  .graph__sx {
+    width: 70%;
+    order: 2;
+  }
+  .graph__dx {
+    width: 75%;
+  }
+  .graph__dx img {
+    margin-bottom: 20px;
+  }
 }

@@ -1,4 +1,4 @@
-var vm = new Vue({
+var one = new Vue({
   el: "#app",
   data: {
     selected: 0,
@@ -23,7 +23,66 @@ var vm = new Vue({
         description: 'Composed in pseudo-Latin language which more or less corresponds.'
       },
     ],
-    quickstart: ["npm", "nuget", "spm", "github"]
+    quickstart: ["npm", "nuget", "spm", "github"],
   },
-  methods: {},
+});
+
+var two = new Vue({
+  el: "#appFooter",
+  data: {
+    company: [{
+        name: "About Us",
+        url: "https://www.google.it",
+      },
+      {
+        name: "Services",
+        url: "#",
+      },
+      {
+        name: "Team",
+        url: "#",
+      },
+      {
+        name: "Pricing",
+        url: "#",
+      },
+      {
+        name: "Project",
+        url: "#",
+      },
+      {
+        name: "Careers",
+        url: "#",
+      },
+      {
+        name: "Blog",
+        url: "#",
+      },
+      {
+        name: "Login",
+        url: "#",
+      },
+    ],
+    links: [{
+        name: "Terms of Services",
+        url: "#",
+      },
+      {
+        name: "Privacy Policy",
+        url: "#",
+      },
+      {
+        name: "Documentation",
+        url: "#",
+      },
+      {
+        name: "Changelog",
+        url: "#",
+      },
+      {
+        name: "Componentss",
+        url: "#",
+      },
+    ]
+  },
 });
