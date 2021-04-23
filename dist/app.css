@@ -135,7 +135,7 @@ header {
   border-bottom-left-radius: 90% 30%;
   border-bottom-right-radius: 90% 30%;
 }
-.main__bot .main__bot--imgwrap {
+.main__bot--imgwrap {
   width: 70%;
   margin: auto;
   display: flex;
@@ -156,7 +156,6 @@ header {
 .features p {
   margin-bottom: 30px;
 }
-
 .features__text {
   width: 50%;
 }
@@ -168,7 +167,6 @@ header {
   color: #E94649;
   font-size: 17px;
 }
-
 .features__container {
   display: flex;
   flex-wrap: wrap;
@@ -294,12 +292,6 @@ header {
   color: #E94649;
   font-size: 17px;
 }
-
-.table__container {
-  width: 80%;
-  margin-top: 40px;
-}
-
 .quickstart__table {
   background-color: #202942;
   height: 130px;
@@ -341,7 +333,6 @@ header {
 .quickstart__table p span {
   color: #2ECA8B;
 }
-
 .quickstart__features {
   margin-top: 20px;
   align-self: flex-start;
@@ -354,6 +345,11 @@ header {
   color: #2ECA8B;
 }
 
+.table__container {
+  width: 80%;
+  margin-top: 40px;
+}
+
 .graph {
   padding-top: 80px;
   width: 70%;
@@ -362,7 +358,6 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-
 .graph__sx {
   width: 45%;
 }
@@ -389,7 +384,6 @@ header {
   color: #F8F9FC;
   font-size: 12px;
 }
-
 .graph__dx {
   width: 40%;
 }
@@ -403,7 +397,6 @@ header {
   width: 70%;
   margin: auto;
 }
-
 .rates__text {
   text-align: center;
 }
@@ -419,13 +412,11 @@ header {
   color: #E94649;
   font-size: 17px;
 }
-
 .rates__wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .rates__wrapper__box {
   height: 500px;
   width: 32%;
@@ -460,7 +451,7 @@ header {
 .rates__wrapper__box p {
   margin: 10px 0;
 }
-.rates__wrapper__box .rates__border {
+.rates__wrapper__box__border {
   padding-bottom: 15px;
   margin: 15px 0;
   border-bottom: 1px solid #E9ECEF;
@@ -472,7 +463,6 @@ header {
 .rates__wrapper__box button:active {
   background-color: #E43F52;
 }
-
 .rates__best {
   transform: rotate(45deg);
   border: 25px solid transparent;
@@ -492,7 +482,6 @@ header {
   font-size: 16px;
   bottom: -22px;
 }
-
 .rates__wrapper__box:hover {
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
@@ -506,15 +495,15 @@ header {
   margin: auto;
   padding-bottom: 180px;
 }
-.form__wrapper .form__text {
+.form__wrapper__text {
   text-align: center;
 }
-.form__wrapper .form__text p {
+.form__wrapper__text p {
   margin: auto;
   width: 50%;
   padding: 30px 0;
 }
-.form__wrapper .form__text p span {
+.form__wrapper__text p span {
   color: #E94649;
   font-size: 17px;
 }
@@ -689,7 +678,7 @@ footer > footer .footer__design .footer__cards img {
 }
 
 @media only screen and (max-width: 1480px) {
-  .features .features__text {
+  .features__text {
     margin: auto;
   }
   .features .box {
@@ -702,7 +691,7 @@ footer > footer .footer__design .footer__cards img {
   .rates__wrapper {
     justify-content: center;
   }
-  .rates__wrapper .rates__wrapper__box {
+  .rates__wrapper__box {
     height: 500px;
     width: 45%;
     margin: 20px;
@@ -731,14 +720,14 @@ footer > footer .footer__design .footer__cards img {
   .graph {
     flex-wrap: wrap;
   }
-  .graph .graph__sx {
+  .graph__sx {
     width: 70%;
     order: 2;
   }
-  .graph .graph__dx {
+  .graph__dx {
     width: 75%;
   }
-  .graph .graph__dx img {
+  .graph__dx img {
     margin-bottom: 20px;
   }
 }
@@ -781,6 +770,9 @@ p {
   border: 1px solid #E94649;
   box-shadow: 0 2px 4px 0 #c7d2f3;
 }
+.button--color:active:not(.footer__column button) {
+  background-color: #E43F52;
+}
 
 .button--white {
   background-color: #F8F9FC;
@@ -791,8 +783,4 @@ p {
 
 button:active {
   transform: translateY(2px);
-}
-
-.button--color:active:not(.footer__column button) {
-  background-color: #E43F52;
 }

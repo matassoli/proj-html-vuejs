@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1480px) {
   .features {
-    .features__text {
+    &__text {
       margin: auto;
     }
 
@@ -16,7 +16,7 @@
   .rates__wrapper {
     justify-content: center;
 
-    .rates__wrapper__box {
+    &__box {
       height: 500px;
       width: 45%;
       margin: 20px;
@@ -48,12 +48,12 @@
     .graph {
       flex-wrap: wrap;
 
-      .graph__sx {
+      &__sx {
         width: 70%;
         order: 2;
       }
 
-      .graph__dx {
+      &__dx {
         width: 75%;
 
         img {

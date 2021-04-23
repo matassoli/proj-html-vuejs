@@ -47,6 +47,10 @@ p {
   color: $secondaryBG;
   border: 1px solid $primary;
   box-shadow: 0 2px 4px 0 #c7d2f3;
+
+  &:active:not(.footer__column button) {
+    background-color: #E43F52;
+  }
 }
 
 .button--white {
@@ -58,8 +62,4 @@ p {
 
 button:active {
   transform: translateY(2px);
-}
-
-.button--color:active:not(.footer__column button) {
-  background-color: #E43F52;
 }
